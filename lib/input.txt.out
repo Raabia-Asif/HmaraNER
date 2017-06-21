@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Florence</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Nightingale</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>born</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>on</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>12</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="7">
+            <word>May</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>1820</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="9">
+            <word>into</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>a</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>rich</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>upper-class</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>,</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="15">
+            <word>well-connected</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>British</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>family</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>at</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="20">
+            <word>Villa</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>Colombaia</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>,</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="23">
+            <word>in</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="24">
+            <word>Florence</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="25">
+            <word>,</word>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="26">
+            <word>Italy</word>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="27">
+            <word>,</word>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="28">
+            <word>and</word>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="29">
+            <word>was</word>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>152</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="30">
+            <word>named</word>
+            <CharacterOffsetBegin>153</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="31">
+            <word>after</word>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>164</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="32">
+            <word>the</word>
+            <CharacterOffsetBegin>165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="33">
+            <word>city</word>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="34">
+            <word>of</word>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="35">
+            <word>her</word>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>180</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="36">
+            <word>birth</word>
+            <CharacterOffsetBegin>181</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="37">
+            <word>.</word>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>187</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+      </sentence>
+    </sentences>
+  </document>
+</root>
