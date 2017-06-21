@@ -1,0 +1,21 @@
+Prefix dbo: <http://dbpedia.org/ontology/>
+Prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix foaf: <http://xmlns.com/foaf/0.1/>
+Prefix yago: <http://dbpedia.org/class/yago/>
+Prefix schema: <http://schema.org/>
+
+SELECT Distinct (?s as ?URI)
+WHERE { ?s ?p ?o.
+
+    {?s rdf:type foaf:Person}
+         UNION {?s rdf:type dbo:Person}
+         UNION {?s rdf:type schema:Person}
+         UNION {?s rdf:type yago:Person100007846}.
+
+     ?s rdfs:label  ?label.
+
+     FILTER (regex(?label, "Zachary Sklar", "i")).
+
+}
+LIMIT 10

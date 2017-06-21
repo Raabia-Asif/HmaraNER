@@ -1,0 +1,29 @@
+Prefix dbo: <http://dbpedia.org/ontology/>
+Prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix foaf: <http://xmlns.com/foaf/0.1/>
+Prefix yago: <http://dbpedia.org/class/yago/>
+Prefix umbel-rc: <http://umbel.org/umbel/rc/>
+Prefix schema: <http://schema.org/>
+
+SELECT Distinct (?s as ?URI)
+WHERE { ?s ?p ?o.
+
+    dbr:LABEL_TO_QUERY dbo:wikiPageRedirects ?s.
+
+    {?s rdf:type foaf:Person}
+    UNION {?s rdf:type dbo:Person}
+     UNION {?s rdf:type schema:Person}
+      UNION {?s rdf:type yago:Person100007846}
+       UNION {?s rdf:type dbo:Place}
+        UNION {?s rdf:type yago:Location100027167}
+         UNION {?s rdf:type yago:Building102913152}
+          UNION {?s rdf:type umbel-rc:Place}
+           UNION {?s rdf:type yago:Area102735688}
+            UNION {?s rdf:type foaf:Organization}
+             UNION {?s rdf:type dbo:Organisation}
+              UNION {?s rdf:type yago:Group100031264}
+               UNION {?s rdf:type yago:Magazine106595351}.
+
+}
+LIMIT 10
