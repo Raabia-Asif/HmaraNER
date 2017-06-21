@@ -1,0 +1,369 @@
+Sentence #1 (37 tokens):
+Florence Nightingale was born on 12 May 1820 into a rich, upper-class, well-connected British family at the Villa Colombaia, in Florence, Italy, and was named after the city of her birth.
+[Text=Florence CharacterOffsetBegin=0 CharacterOffsetEnd=8 PartOfSpeech=NNP Lemma=Florence NamedEntityTag=ORGANIZATION]
+[Text=Nightingale CharacterOffsetBegin=9 CharacterOffsetEnd=20 PartOfSpeech=NNP Lemma=Nightingale NamedEntityTag=ORGANIZATION]
+[Text=was CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=born CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=VBN Lemma=bear NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=12 CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=CD Lemma=12 NamedEntityTag=O]
+[Text=May CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE]
+[Text=1820 CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=CD Lemma=1820 NamedEntityTag=DATE]
+[Text=into CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=rich CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=JJ Lemma=rich NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=upper-class CharacterOffsetBegin=58 CharacterOffsetEnd=69 PartOfSpeech=JJ Lemma=upper-class NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=well-connected CharacterOffsetBegin=71 CharacterOffsetEnd=85 PartOfSpeech=JJ Lemma=well-connected NamedEntityTag=O]
+[Text=British CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=JJ Lemma=british NamedEntityTag=O]
+[Text=family CharacterOffsetBegin=94 CharacterOffsetEnd=100 PartOfSpeech=NN Lemma=family NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Villa CharacterOffsetBegin=108 CharacterOffsetEnd=113 PartOfSpeech=NNP Lemma=Villa NamedEntityTag=ORGANIZATION]
+[Text=Colombaia CharacterOffsetBegin=114 CharacterOffsetEnd=123 PartOfSpeech=NNP Lemma=Colombaia NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Florence CharacterOffsetBegin=128 CharacterOffsetEnd=136 PartOfSpeech=NNP Lemma=Florence NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Italy CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=NNP Lemma=Italy NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=named CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=VBN Lemma=name NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=city CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=NN Lemma=city NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=birth CharacterOffsetBegin=181 CharacterOffsetEnd=186 PartOfSpeech=NN Lemma=birth NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Florence) (NNP Nightingale))
+    (VP
+      (VP (VBD was)
+        (VP (VBN born)
+          (PP (IN on)
+            (NP (CD 12)))
+          (NP-TMP (NNP May) (CD 1820))
+          (PP (IN into)
+            (NP
+              (NP (DT a) (JJ rich) (, ,) (JJ upper-class) (, ,) (JJ well-connected) (JJ British) (NN family))
+              (PP (IN at)
+                (NP (DT the) (NNP Villa) (NNP Colombaia)))
+              (, ,)
+              (PP (IN in)
+                (NP (NNP Florence) (, ,) (NNP Italy) (, ,)))))))
+      (CC and)
+      (VP (VBD was)
+        (VP (VBN named)
+          (PP (IN after)
+            (NP
+              (NP (DT the) (NN city))
+              (PP (IN of)
+                (NP (PRP$ her) (NN birth))))))))
+    (. .)))
+
+root(ROOT-0, born-4)
+compound(Nightingale-2, Florence-1)
+nsubjpass(born-4, Nightingale-2)
+nsubjpass(named-30, Nightingale-2)
+auxpass(born-4, was-3)
+case(12-6, on-5)
+nmod:on(born-4, 12-6)
+nmod:tmod(born-4, May-7)
+nummod(May-7, 1820-8)
+case(family-17, into-9)
+det(family-17, a-10)
+amod(family-17, rich-11)
+punct(family-17, ,-12)
+amod(family-17, upper-class-13)
+punct(family-17, ,-14)
+amod(family-17, well-connected-15)
+amod(family-17, British-16)
+nmod:into(born-4, family-17)
+case(Colombaia-21, at-18)
+det(Colombaia-21, the-19)
+compound(Colombaia-21, Villa-20)
+nmod:at(family-17, Colombaia-21)
+punct(family-17, ,-22)
+case(Italy-26, in-23)
+compound(Italy-26, Florence-24)
+punct(Italy-26, ,-25)
+nmod:in(family-17, Italy-26)
+punct(Italy-26, ,-27)
+cc(born-4, and-28)
+auxpass(named-30, was-29)
+conj:and(born-4, named-30)
+case(city-33, after-31)
+det(city-33, the-32)
+nmod:after(named-30, city-33)
+case(birth-36, of-34)
+nmod:poss(birth-36, her-35)
+nmod:of(city-33, birth-36)
+punct(born-4, .-37)
+
+
+The top level annotation
+[Text=Florence Nightingale was born on 12 May 1820 into a rich, upper-class, well-connected British family at the Villa Colombaia, in Florence, Italy, and was named after the city of her birth. Tokens=[Florence-1, Nightingale-2, was-3, born-4, on-5, 12-6, May-7, 1820-8, into-9, a-10, rich-11, ,-12, upper-class-13, ,-14, well-connected-15, British-16, family-17, at-18, the-19, Villa-20, Colombaia-21, ,-22, in-23, Florence-24, ,-25, Italy-26, ,-27, and-28, was-29, named-30, after-31, the-32, city-33, of-34, her-35, birth-36, .-37] Sentences=[Florence Nightingale was born on 12 May 1820 into a rich, upper-class, well-connected British family at the Villa Colombaia, in Florence, Italy, and was named after the city of her birth.]]
+
+The keys of the first sentence's CoreMap are:
+[class edu.stanford.nlp.ling.CoreAnnotations$TextAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$CharacterOffsetBeginAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$CharacterOffsetEndAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokensAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokenBeginAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokenEndAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$SentenceIndexAnnotation, class edu.stanford.nlp.trees.TreeCoreAnnotations$TreeAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$CollapsedDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$BasicDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$CollapsedCCProcessedDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$EnhancedDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$EnhancedPlusPlusDependenciesAnnotation]
+
+The first sentence is:
+[Text=Florence Nightingale was born on 12 May 1820 into a rich, upper-class, well-connected British family at the Villa Colombaia, in Florence, Italy, and was named after the city of her birth. CharacterOffsetBegin=0 CharacterOffsetEnd=187 Tokens=[Florence-1, Nightingale-2, was-3, born-4, on-5, 12-6, May-7, 1820-8, into-9, a-10, rich-11, ,-12, upper-class-13, ,-14, well-connected-15, British-16, family-17, at-18, the-19, Villa-20, Colombaia-21, ,-22, in-23, Florence-24, ,-25, Italy-26, ,-27, and-28, was-29, named-30, after-31, the-32, city-33, of-34, her-35, birth-36, .-37] TokenBegin=0 TokenEnd=37 SentenceIndex=0 Tree=(ROOT (S (NP (NNP Florence) (NNP Nightingale)) (VP (VP (VBD was) (VP (VBN born) (PP (IN on) (NP (CD 12))) (NP-TMP (NNP May) (CD 1820)) (PP (IN into) (NP (NP (DT a) (JJ rich) (, ,) (JJ upper-class) (, ,) (JJ well-connected) (JJ British) (NN family)) (PP (IN at) (NP (DT the) (NNP Villa) (NNP Colombaia))) (, ,) (PP (IN in) (NP (NNP Florence) (, ,) (NNP Italy) (, ,))))))) (CC and) (VP (VBD was) (VP (VBN named) (PP (IN after) (NP (NP (DT the) (NN city)) (PP (IN of) (NP (PRP$ her) (NN birth)))))))) (. .))) CollapsedDependencies=-> born/VBN (root)
+  -> Nightingale/NNP (nsubjpass)
+    -> Florence/NNP (compound)
+  -> was/VBD (auxpass)
+  -> 12/CD (nmod:on)
+    -> on/IN (case)
+  -> May/NNP (nmod:tmod)
+    -> 1820/CD (nummod)
+  -> family/NN (nmod:into)
+    -> into/IN (case)
+    -> a/DT (det)
+    -> rich/JJ (amod)
+    -> ,/, (punct)
+    -> upper-class/JJ (amod)
+    -> ,/, (punct)
+    -> well-connected/JJ (amod)
+    -> British/JJ (amod)
+    -> Colombaia/NNP (nmod:at)
+      -> at/IN (case)
+      -> the/DT (det)
+      -> Villa/NNP (compound)
+    -> ,/, (punct)
+    -> Italy/NNP (nmod:in)
+      -> in/IN (case)
+      -> Florence/NNP (compound)
+      -> ,/, (punct)
+      -> ,/, (punct)
+  -> and/CC (cc)
+  -> named/VBN (conj:and)
+    -> was/VBD (auxpass)
+    -> city/NN (nmod:after)
+      -> after/IN (case)
+      -> the/DT (det)
+      -> birth/NN (nmod:of)
+        -> of/IN (case)
+        -> her/PRP$ (nmod:poss)
+  -> ./. (punct)
+ BasicDependencies=-> born/VBN (root)
+  -> Nightingale/NNP (nsubjpass)
+    -> Florence/NNP (compound)
+  -> was/VBD (auxpass)
+  -> 12/CD (nmod)
+    -> on/IN (case)
+  -> May/NNP (nmod:tmod)
+    -> 1820/CD (nummod)
+  -> family/NN (nmod)
+    -> into/IN (case)
+    -> a/DT (det)
+    -> rich/JJ (amod)
+    -> ,/, (punct)
+    -> upper-class/JJ (amod)
+    -> ,/, (punct)
+    -> well-connected/JJ (amod)
+    -> British/JJ (amod)
+    -> Colombaia/NNP (nmod)
+      -> at/IN (case)
+      -> the/DT (det)
+      -> Villa/NNP (compound)
+    -> ,/, (punct)
+    -> Italy/NNP (nmod)
+      -> in/IN (case)
+      -> Florence/NNP (compound)
+      -> ,/, (punct)
+      -> ,/, (punct)
+  -> and/CC (cc)
+  -> named/VBN (conj)
+    -> was/VBD (auxpass)
+    -> city/NN (nmod)
+      -> after/IN (case)
+      -> the/DT (det)
+      -> birth/NN (nmod)
+        -> of/IN (case)
+        -> her/PRP$ (nmod:poss)
+  -> ./. (punct)
+ CollapsedCCProcessedDependencies=-> born/VBN (root)
+  -> Nightingale/NNP (nsubjpass)
+    -> Florence/NNP (compound)
+  -> was/VBD (auxpass)
+  -> 12/CD (nmod:on)
+    -> on/IN (case)
+  -> May/NNP (nmod:tmod)
+    -> 1820/CD (nummod)
+  -> family/NN (nmod:into)
+    -> into/IN (case)
+    -> a/DT (det)
+    -> rich/JJ (amod)
+    -> ,/, (punct)
+    -> upper-class/JJ (amod)
+    -> ,/, (punct)
+    -> well-connected/JJ (amod)
+    -> British/JJ (amod)
+    -> Colombaia/NNP (nmod:at)
+      -> at/IN (case)
+      -> the/DT (det)
+      -> Villa/NNP (compound)
+    -> ,/, (punct)
+    -> Italy/NNP (nmod:in)
+      -> in/IN (case)
+      -> Florence/NNP (compound)
+      -> ,/, (punct)
+      -> ,/, (punct)
+  -> and/CC (cc)
+  -> named/VBN (conj:and)
+    -> Nightingale/NNP (nsubjpass)
+    -> was/VBD (auxpass)
+    -> city/NN (nmod:after)
+      -> after/IN (case)
+      -> the/DT (det)
+      -> birth/NN (nmod:of)
+        -> of/IN (case)
+        -> her/PRP$ (nmod:poss)
+  -> ./. (punct)
+ EnhancedDependencies=-> born/VBN (root)
+  -> Nightingale/NNP (nsubjpass)
+    -> Florence/NNP (compound)
+  -> was/VBD (auxpass)
+  -> 12/CD (nmod:on)
+    -> on/IN (case)
+  -> May/NNP (nmod:tmod)
+    -> 1820/CD (nummod)
+  -> family/NN (nmod:into)
+    -> into/IN (case)
+    -> a/DT (det)
+    -> rich/JJ (amod)
+    -> ,/, (punct)
+    -> upper-class/JJ (amod)
+    -> ,/, (punct)
+    -> well-connected/JJ (amod)
+    -> British/JJ (amod)
+    -> Colombaia/NNP (nmod:at)
+      -> at/IN (case)
+      -> the/DT (det)
+      -> Villa/NNP (compound)
+    -> ,/, (punct)
+    -> Italy/NNP (nmod:in)
+      -> in/IN (case)
+      -> Florence/NNP (compound)
+      -> ,/, (punct)
+      -> ,/, (punct)
+  -> and/CC (cc)
+  -> named/VBN (conj:and)
+    -> Nightingale/NNP (nsubjpass)
+    -> was/VBD (auxpass)
+    -> city/NN (nmod:after)
+      -> after/IN (case)
+      -> the/DT (det)
+      -> birth/NN (nmod:of)
+        -> of/IN (case)
+        -> her/PRP$ (nmod:poss)
+  -> ./. (punct)
+ EnhancedPlusPlusDependencies=-> born/VBN (root)
+  -> Nightingale/NNP (nsubjpass)
+    -> Florence/NNP (compound)
+  -> was/VBD (auxpass)
+  -> 12/CD (nmod:on)
+    -> on/IN (case)
+  -> May/NNP (nmod:tmod)
+    -> 1820/CD (nummod)
+  -> family/NN (nmod:into)
+    -> into/IN (case)
+    -> a/DT (det)
+    -> rich/JJ (amod)
+    -> ,/, (punct)
+    -> upper-class/JJ (amod)
+    -> ,/, (punct)
+    -> well-connected/JJ (amod)
+    -> British/JJ (amod)
+    -> Colombaia/NNP (nmod:at)
+      -> at/IN (case)
+      -> the/DT (det)
+      -> Villa/NNP (compound)
+    -> ,/, (punct)
+    -> Italy/NNP (nmod:in)
+      -> in/IN (case)
+      -> Florence/NNP (compound)
+      -> ,/, (punct)
+      -> ,/, (punct)
+  -> and/CC (cc)
+  -> named/VBN (conj:and)
+    -> Nightingale/NNP (nsubjpass)
+    -> was/VBD (auxpass)
+    -> city/NN (nmod:after)
+      -> after/IN (case)
+      -> the/DT (det)
+      -> birth/NN (nmod:of)
+        -> of/IN (case)
+        -> her/PRP$ (nmod:poss)
+  -> ./. (punct)
+]
+
+The first sentence tokens are:
+[Value=Florence Text=Florence OriginalText=Florence CharacterOffsetBegin=0 CharacterOffsetEnd=8 Before= After=  Index=1 SentenceIndex=0 PartOfSpeech=NNP Lemma=Florence NamedEntityTag=ORGANIZATION BeginIndex=0 EndIndex=1]
+[Value=Nightingale Text=Nightingale OriginalText=Nightingale CharacterOffsetBegin=9 CharacterOffsetEnd=20 Before=  After=  Index=2 SentenceIndex=0 PartOfSpeech=NNP Lemma=Nightingale NamedEntityTag=ORGANIZATION BeginIndex=1 EndIndex=2]
+[Value=was Text=was OriginalText=was CharacterOffsetBegin=21 CharacterOffsetEnd=24 Before=  After=  Index=3 SentenceIndex=0 PartOfSpeech=VBD Lemma=be NamedEntityTag=O BeginIndex=2 EndIndex=3]
+[Value=born Text=born OriginalText=born CharacterOffsetBegin=25 CharacterOffsetEnd=29 Before=  After=  Index=4 SentenceIndex=0 PartOfSpeech=VBN Lemma=bear NamedEntityTag=O BeginIndex=3 EndIndex=4]
+[Value=on Text=on OriginalText=on CharacterOffsetBegin=30 CharacterOffsetEnd=32 Before=  After=  Index=5 SentenceIndex=0 PartOfSpeech=IN Lemma=on NamedEntityTag=O BeginIndex=4 EndIndex=5]
+[Value=12 Text=12 OriginalText=12 CharacterOffsetBegin=33 CharacterOffsetEnd=35 Before=  After=  Index=6 SentenceIndex=0 PartOfSpeech=CD Lemma=12 NamedEntityTag=O BeginIndex=5 EndIndex=6]
+[Value=May Text=May OriginalText=May CharacterOffsetBegin=36 CharacterOffsetEnd=39 Before=  After=  Index=7 SentenceIndex=0 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE BeginIndex=6 EndIndex=7]
+[Value=1820 Text=1820 OriginalText=1820 CharacterOffsetBegin=40 CharacterOffsetEnd=44 Before=  After=  Index=8 SentenceIndex=0 PartOfSpeech=CD Lemma=1820 NamedEntityTag=DATE BeginIndex=7 EndIndex=8]
+[Value=into Text=into OriginalText=into CharacterOffsetBegin=45 CharacterOffsetEnd=49 Before=  After=  Index=9 SentenceIndex=0 PartOfSpeech=IN Lemma=into NamedEntityTag=O BeginIndex=8 EndIndex=9]
+[Value=a Text=a OriginalText=a CharacterOffsetBegin=50 CharacterOffsetEnd=51 Before=  After=  Index=10 SentenceIndex=0 PartOfSpeech=DT Lemma=a NamedEntityTag=O BeginIndex=9 EndIndex=10]
+[Value=rich Text=rich OriginalText=rich CharacterOffsetBegin=52 CharacterOffsetEnd=56 Before=  After= Index=11 SentenceIndex=0 PartOfSpeech=JJ Lemma=rich NamedEntityTag=O BeginIndex=10 EndIndex=11]
+[Value=, Text=, OriginalText=, CharacterOffsetBegin=56 CharacterOffsetEnd=57 Before= After=  Index=12 SentenceIndex=0 PartOfSpeech=, Lemma=, NamedEntityTag=O BeginIndex=11 EndIndex=12]
+[Value=upper-class Text=upper-class OriginalText=upper-class CharacterOffsetBegin=58 CharacterOffsetEnd=69 Before=  After= Index=13 SentenceIndex=0 PartOfSpeech=JJ Lemma=upper-class NamedEntityTag=O BeginIndex=12 EndIndex=13]
+[Value=, Text=, OriginalText=, CharacterOffsetBegin=69 CharacterOffsetEnd=70 Before= After=  Index=14 SentenceIndex=0 PartOfSpeech=, Lemma=, NamedEntityTag=O BeginIndex=13 EndIndex=14]
+[Value=well-connected Text=well-connected OriginalText=well-connected CharacterOffsetBegin=71 CharacterOffsetEnd=85 Before=  After=  Index=15 SentenceIndex=0 PartOfSpeech=JJ Lemma=well-connected NamedEntityTag=O BeginIndex=14 EndIndex=15]
+[Value=British Text=British OriginalText=British CharacterOffsetBegin=86 CharacterOffsetEnd=93 Before=  After=  Index=16 SentenceIndex=0 PartOfSpeech=JJ Lemma=british NamedEntityTag=O BeginIndex=15 EndIndex=16]
+[Value=family Text=family OriginalText=family CharacterOffsetBegin=94 CharacterOffsetEnd=100 Before=  After=  Index=17 SentenceIndex=0 PartOfSpeech=NN Lemma=family NamedEntityTag=O BeginIndex=16 EndIndex=17]
+[Value=at Text=at OriginalText=at CharacterOffsetBegin=101 CharacterOffsetEnd=103 Before=  After=  Index=18 SentenceIndex=0 PartOfSpeech=IN Lemma=at NamedEntityTag=O BeginIndex=17 EndIndex=18]
+[Value=the Text=the OriginalText=the CharacterOffsetBegin=104 CharacterOffsetEnd=107 Before=  After=  Index=19 SentenceIndex=0 PartOfSpeech=DT Lemma=the NamedEntityTag=O BeginIndex=18 EndIndex=19]
+[Value=Villa Text=Villa OriginalText=Villa CharacterOffsetBegin=108 CharacterOffsetEnd=113 Before=  After=  Index=20 SentenceIndex=0 PartOfSpeech=NNP Lemma=Villa NamedEntityTag=ORGANIZATION BeginIndex=19 EndIndex=20]
+[Value=Colombaia Text=Colombaia OriginalText=Colombaia CharacterOffsetBegin=114 CharacterOffsetEnd=123 Before=  After= Index=21 SentenceIndex=0 PartOfSpeech=NNP Lemma=Colombaia NamedEntityTag=ORGANIZATION BeginIndex=20 EndIndex=21]
+[Value=, Text=, OriginalText=, CharacterOffsetBegin=123 CharacterOffsetEnd=124 Before= After=  Index=22 SentenceIndex=0 PartOfSpeech=, Lemma=, NamedEntityTag=O BeginIndex=21 EndIndex=22]
+[Value=in Text=in OriginalText=in CharacterOffsetBegin=125 CharacterOffsetEnd=127 Before=  After=  Index=23 SentenceIndex=0 PartOfSpeech=IN Lemma=in NamedEntityTag=O BeginIndex=22 EndIndex=23]
+[Value=Florence Text=Florence OriginalText=Florence CharacterOffsetBegin=128 CharacterOffsetEnd=136 Before=  After= Index=24 SentenceIndex=0 PartOfSpeech=NNP Lemma=Florence NamedEntityTag=LOCATION BeginIndex=23 EndIndex=24]
+[Value=, Text=, OriginalText=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 Before= After=  Index=25 SentenceIndex=0 PartOfSpeech=, Lemma=, NamedEntityTag=O BeginIndex=24 EndIndex=25]
+[Value=Italy Text=Italy OriginalText=Italy CharacterOffsetBegin=138 CharacterOffsetEnd=143 Before=  After= Index=26 SentenceIndex=0 PartOfSpeech=NNP Lemma=Italy NamedEntityTag=LOCATION BeginIndex=25 EndIndex=26]
+[Value=, Text=, OriginalText=, CharacterOffsetBegin=143 CharacterOffsetEnd=144 Before= After=  Index=27 SentenceIndex=0 PartOfSpeech=, Lemma=, NamedEntityTag=O BeginIndex=26 EndIndex=27]
+[Value=and Text=and OriginalText=and CharacterOffsetBegin=145 CharacterOffsetEnd=148 Before=  After=  Index=28 SentenceIndex=0 PartOfSpeech=CC Lemma=and NamedEntityTag=O BeginIndex=27 EndIndex=28]
+[Value=was Text=was OriginalText=was CharacterOffsetBegin=149 CharacterOffsetEnd=152 Before=  After=  Index=29 SentenceIndex=0 PartOfSpeech=VBD Lemma=be NamedEntityTag=O BeginIndex=28 EndIndex=29]
+[Value=named Text=named OriginalText=named CharacterOffsetBegin=153 CharacterOffsetEnd=158 Before=  After=  Index=30 SentenceIndex=0 PartOfSpeech=VBN Lemma=name NamedEntityTag=O BeginIndex=29 EndIndex=30]
+[Value=after Text=after OriginalText=after CharacterOffsetBegin=159 CharacterOffsetEnd=164 Before=  After=  Index=31 SentenceIndex=0 PartOfSpeech=IN Lemma=after NamedEntityTag=O BeginIndex=30 EndIndex=31]
+[Value=the Text=the OriginalText=the CharacterOffsetBegin=165 CharacterOffsetEnd=168 Before=  After=  Index=32 SentenceIndex=0 PartOfSpeech=DT Lemma=the NamedEntityTag=O BeginIndex=31 EndIndex=32]
+[Value=city Text=city OriginalText=city CharacterOffsetBegin=169 CharacterOffsetEnd=173 Before=  After=  Index=33 SentenceIndex=0 PartOfSpeech=NN Lemma=city NamedEntityTag=O BeginIndex=32 EndIndex=33]
+[Value=of Text=of OriginalText=of CharacterOffsetBegin=174 CharacterOffsetEnd=176 Before=  After=  Index=34 SentenceIndex=0 PartOfSpeech=IN Lemma=of NamedEntityTag=O BeginIndex=33 EndIndex=34]
+[Value=her Text=her OriginalText=her CharacterOffsetBegin=177 CharacterOffsetEnd=180 Before=  After=  Index=35 SentenceIndex=0 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O BeginIndex=34 EndIndex=35]
+[Value=birth Text=birth OriginalText=birth CharacterOffsetBegin=181 CharacterOffsetEnd=186 Before=  After= Index=36 SentenceIndex=0 PartOfSpeech=NN Lemma=birth NamedEntityTag=O BeginIndex=35 EndIndex=36]
+[Value=. Text=. OriginalText=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 Before= After= Index=37 SentenceIndex=0 PartOfSpeech=. Lemma=. NamedEntityTag=O BeginIndex=36 EndIndex=37]
+
+The first sentence parse tree is:
+(ROOT
+  (S
+    (NP (NNP Florence) (NNP Nightingale))
+    (VP
+      (VP (VBD was)
+        (VP (VBN born)
+          (PP (IN on)
+            (NP (CD 12)))
+          (NP-TMP (NNP May) (CD 1820))
+          (PP (IN into)
+            (NP
+              (NP (DT a) (JJ rich) (, ,) (JJ upper-class) (, ,) (JJ well-connected) (JJ British) (NN family))
+              (PP (IN at)
+                (NP (DT the) (NNP Villa) (NNP Colombaia)))
+              (, ,)
+              (PP (IN in)
+                (NP (NNP Florence) (, ,) (NNP Italy) (, ,)))))))
+      (CC and)
+      (VP (VBD was)
+        (VP (VBN named)
+          (PP (IN after)
+            (NP
+              (NP (DT the) (NN city))
+              (PP (IN of)
+                (NP (PRP$ her) (NN birth))))))))
+    (. .)))

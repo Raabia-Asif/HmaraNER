@@ -1,0 +1,55 @@
+{
+  "@text": "Florence Nightingale was born on 12 May 1820 into a rich, upper-class, well-connected British family at the Villa Colombaia, in Florence, Italy, and was named after the city of her birth.",
+  "@confidence": "0.35",
+  "@support": "0",
+  "@types": "",
+  "@sparql": "",
+  "@policy": "whitelist",
+  "Resources":   [
+        {
+      "@URI": "http://dbpedia.org/resource/Florence_Nightingale",
+      "@support": "614",
+      "@types": "DBpedia:Agent,Schema:Person,Http://xmlns.com/foaf/0.1/Person,DBpedia:Person,DBpedia:Scientist,DBpedia:Medician",
+      "@surfaceForm": "Florence Nightingale",
+      "@offset": "0",
+      "@similarityScore": "1.0",
+      "@percentageOfSecondRank": "7.053153674823964E-20"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/United_Kingdom",
+      "@support": "170647",
+      "@types": "Schema:Place,DBpedia:Place,DBpedia:PopulatedPlace,Schema:Country,DBpedia:Country",
+      "@surfaceForm": "British",
+      "@offset": "86",
+      "@similarityScore": "0.9437316817932584",
+      "@percentageOfSecondRank": "0.033715006366076744"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/Family_(biology)",
+      "@support": "46990",
+      "@types": "",
+      "@surfaceForm": "family",
+      "@offset": "94",
+      "@similarityScore": "0.9991094976704603",
+      "@percentageOfSecondRank": "8.239862097103466E-4"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/Florence",
+      "@support": "13675",
+      "@types": "Schema:Place,DBpedia:Place,DBpedia:PopulatedPlace,DBpedia:Settlement",
+      "@surfaceForm": "Florence, Italy",
+      "@offset": "128",
+      "@similarityScore": "1.0",
+      "@percentageOfSecondRank": "0.0"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/City",
+      "@support": "21002",
+      "@types": "",
+      "@surfaceForm": "city",
+      "@offset": "169",
+      "@similarityScore": "0.9242504099928662",
+      "@percentageOfSecondRank": "0.07100469549580839"
+    }
+  ]
+}

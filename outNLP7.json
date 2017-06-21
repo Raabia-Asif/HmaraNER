@@ -1,0 +1,2100 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\r\n  (S\r\n    (NP (NNP Hyundai) (NNP Motor))\r\n    (VP (VBD sold)\r\n      (NP\r\n        (QP (CD 4.86) (CD million))\r\n        (NNS vehicles))\r\n      (PP (VBN compared)\r\n        (PP (IN with)\r\n          (NP\r\n            (NP (PRP$ its) (NN target))\r\n            (PP (IN of)\r\n              (NP\r\n                (QP (CD 5.01) (CD million))))\r\n            (NP-TMP (JJ last) (NN year))))))\r\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Motor",
+          "dependent": 1,
+          "dependentGloss": "Hyundai"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 2,
+          "dependentGloss": "Motor"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "million",
+          "dependent": 4,
+          "dependentGloss": "4.86"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 5,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "vehicles"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 7,
+          "dependentGloss": "compared"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 9,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 10,
+          "dependentGloss": "target"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "million",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "million",
+          "dependent": 12,
+          "dependentGloss": "5.01"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 13,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "year",
+          "dependent": 14,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 15,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Motor",
+          "dependent": 1,
+          "dependentGloss": "Hyundai"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 2,
+          "dependentGloss": "Motor"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "million",
+          "dependent": 4,
+          "dependentGloss": "4.86"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 5,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "vehicles"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 7,
+          "dependentGloss": "compared"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 9,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "advcl:with",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 10,
+          "dependentGloss": "target"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "million",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "million",
+          "dependent": 12,
+          "dependentGloss": "5.01"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 13,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "year",
+          "dependent": 14,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 15,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Motor",
+          "dependent": 1,
+          "dependentGloss": "Hyundai"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 2,
+          "dependentGloss": "Motor"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "million",
+          "dependent": 4,
+          "dependentGloss": "4.86"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 5,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "vehicles"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 7,
+          "dependentGloss": "compared"
+        },
+        {
+          "dep": "mwe",
+          "governor": 7,
+          "governorGloss": "compared",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 9,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "advcl:compared_with",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 10,
+          "dependentGloss": "target"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "million",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "million",
+          "dependent": 12,
+          "dependentGloss": "5.01"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 13,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "year",
+          "dependent": 14,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 10,
+          "governorGloss": "target",
+          "dependent": 15,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Hyundai",
+          "originalText": "Hyundai",
+          "lemma": "Hyundai",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 7,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Motor",
+          "originalText": "Motor",
+          "lemma": "Motor",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 13,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "sold",
+          "originalText": "sold",
+          "lemma": "sell",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 18,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "4.86",
+          "originalText": "4.86",
+          "lemma": "4.86",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 23,
+          "pos": "CD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "million",
+          "originalText": "million",
+          "lemma": "million",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 31,
+          "pos": "CD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "vehicles",
+          "originalText": "vehicles",
+          "lemma": "vehicle",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 40,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "compared",
+          "originalText": "compared",
+          "lemma": "compare",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 49,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 54,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "its",
+          "originalText": "its",
+          "lemma": "its",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 58,
+          "pos": "PRP$",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "target",
+          "originalText": "target",
+          "lemma": "target",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 65,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 68,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "5.01",
+          "originalText": "5.01",
+          "lemma": "5.01",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 73,
+          "pos": "CD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "million",
+          "originalText": "million",
+          "lemma": "million",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 81,
+          "pos": "CD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "last",
+          "originalText": "last",
+          "lemma": "last",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 86,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "year",
+          "originalText": "year",
+          "lemma": "year",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 91,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 92,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\r\n  (S\r\n    (NP (NNP Kia) (NNP Motors))\r\n    (VP (VBD sold)\r\n      (NP\r\n        (NP\r\n          (QP (CD 3.02) (CD million))\r\n          (NNS vehicles))\r\n        (, ,)\r\n        (ADJP (JJ shy)\r\n          (PP (IN of)\r\n            (NP\r\n              (NP (PRP$ its) (NN goal))\r\n              (PP (IN of)\r\n                (NP\r\n                  (QP (CD 3.12) (CD million)))))))))\r\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Motors",
+          "dependent": 1,
+          "dependentGloss": "Kia"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 2,
+          "dependentGloss": "Motors"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "million",
+          "dependent": 4,
+          "dependentGloss": "3.02"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 5,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "vehicles"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 8,
+          "dependentGloss": "shy"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "goal",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "goal",
+          "dependent": 10,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "shy",
+          "dependent": 11,
+          "dependentGloss": "goal"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "million",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "million",
+          "dependent": 13,
+          "dependentGloss": "3.12"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "goal",
+          "dependent": 14,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Motors",
+          "dependent": 1,
+          "dependentGloss": "Kia"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 2,
+          "dependentGloss": "Motors"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "million",
+          "dependent": 4,
+          "dependentGloss": "3.02"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 5,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "vehicles"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 8,
+          "dependentGloss": "shy"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "goal",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "goal",
+          "dependent": 10,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "shy",
+          "dependent": 11,
+          "dependentGloss": "goal"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "million",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "million",
+          "dependent": 13,
+          "dependentGloss": "3.12"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "goal",
+          "dependent": 14,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Motors",
+          "dependent": 1,
+          "dependentGloss": "Kia"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 2,
+          "dependentGloss": "Motors"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "million",
+          "dependent": 4,
+          "dependentGloss": "3.02"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 5,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "vehicles"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "vehicles",
+          "dependent": 8,
+          "dependentGloss": "shy"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "goal",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "goal",
+          "dependent": 10,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "shy",
+          "dependent": 11,
+          "dependentGloss": "goal"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "million",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "million",
+          "dependent": 13,
+          "dependentGloss": "3.12"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "goal",
+          "dependent": 14,
+          "dependentGloss": "million"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "sold",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Kia",
+          "originalText": "Kia",
+          "lemma": "Kia",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 96,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Motors",
+          "originalText": "Motors",
+          "lemma": "Motors",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 103,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "sold",
+          "originalText": "sold",
+          "lemma": "sell",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 108,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "3.02",
+          "originalText": "3.02",
+          "lemma": "3.02",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 113,
+          "pos": "CD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "million",
+          "originalText": "million",
+          "lemma": "million",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 121,
+          "pos": "CD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "vehicles",
+          "originalText": "vehicles",
+          "lemma": "vehicle",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 130,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 131,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "shy",
+          "originalText": "shy",
+          "lemma": "shy",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 135,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 138,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "its",
+          "originalText": "its",
+          "lemma": "its",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 142,
+          "pos": "PRP$",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "goal",
+          "originalText": "goal",
+          "lemma": "goal",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 147,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 150,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "3.12",
+          "originalText": "3.12",
+          "lemma": "3.12",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 155,
+          "pos": "CD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "million",
+          "originalText": "million",
+          "lemma": "million",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 163,
+          "pos": "CD",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 164,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\r\n  (S\r\n    (NP (DT The) (JJ 78-year-old) (NN chief))\r\n    (VP (VBD said)\r\n      (SBAR\r\n        (S\r\n          (NP (DT the) (NNS automakers))\r\n          (VP (MD will)\r\n            (VP (VB launch)\r\n              (NP\r\n                (QP (JJR more) (IN than) (CD 10))\r\n                (JJ new) (NNS models))\r\n              (NP-TMP (DT every) (NN year))\r\n              (, ,)\r\n              (PP (VBG including)\r\n                (NP\r\n                  (NP\r\n                    (NP (DT a) (JJ new) (NN SUV))\r\n                    (PP (IN for)\r\n                      (NP (JJ advanced) (NNS markets))))\r\n                  (CC and)\r\n                  (NP\r\n                    (NP (DT a) (NNP Genesis) (NN G70) (NN sedan))\r\n                    (NP (DT this) (NN year))))))))))\r\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "said"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "chief",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "chief",
+          "dependent": 2,
+          "dependentGloss": "78-year-old"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "said",
+          "dependent": 3,
+          "dependentGloss": "chief"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "automakers",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 6,
+          "dependentGloss": "automakers"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 7,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "said",
+          "dependent": 8,
+          "dependentGloss": "launch"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "10",
+          "dependent": 9,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "mwe",
+          "governor": 9,
+          "governorGloss": "more",
+          "dependent": 10,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "models",
+          "dependent": 11,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "models",
+          "dependent": 12,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 13,
+          "dependentGloss": "models"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "year",
+          "dependent": 14,
+          "dependentGloss": "every"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 15,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 17,
+          "dependentGloss": "including"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 19,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 20,
+          "dependentGloss": "SUV"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "markets",
+          "dependent": 21,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 23,
+          "governorGloss": "markets",
+          "dependent": 22,
+          "dependentGloss": "advanced"
+        },
+        {
+          "dep": "nmod",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 23,
+          "dependentGloss": "markets"
+        },
+        {
+          "dep": "cc",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 24,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 25,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 26,
+          "dependentGloss": "Genesis"
+        },
+        {
+          "dep": "compound",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 27,
+          "dependentGloss": "G70"
+        },
+        {
+          "dep": "conj",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 28,
+          "dependentGloss": "sedan"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "year",
+          "dependent": 29,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "dep",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 30,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "said",
+          "dependent": 31,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "said"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "chief",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "chief",
+          "dependent": 2,
+          "dependentGloss": "78-year-old"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "said",
+          "dependent": 3,
+          "dependentGloss": "chief"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "automakers",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 6,
+          "dependentGloss": "automakers"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 7,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "said",
+          "dependent": 8,
+          "dependentGloss": "launch"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "10",
+          "dependent": 9,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "mwe",
+          "governor": 9,
+          "governorGloss": "more",
+          "dependent": 10,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "models",
+          "dependent": 11,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "models",
+          "dependent": 12,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 13,
+          "dependentGloss": "models"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "year",
+          "dependent": 14,
+          "dependentGloss": "every"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 15,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 17,
+          "dependentGloss": "including"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 19,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "nmod:including",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 20,
+          "dependentGloss": "SUV"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "markets",
+          "dependent": 21,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 23,
+          "governorGloss": "markets",
+          "dependent": 22,
+          "dependentGloss": "advanced"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 23,
+          "dependentGloss": "markets"
+        },
+        {
+          "dep": "cc",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 24,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 25,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 26,
+          "dependentGloss": "Genesis"
+        },
+        {
+          "dep": "compound",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 27,
+          "dependentGloss": "G70"
+        },
+        {
+          "dep": "nmod:including",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 28,
+          "dependentGloss": "sedan"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 28,
+          "dependentGloss": "sedan"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "year",
+          "dependent": 29,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "dep",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 30,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "said",
+          "dependent": 31,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "said"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "chief",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "chief",
+          "dependent": 2,
+          "dependentGloss": "78-year-old"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "said",
+          "dependent": 3,
+          "dependentGloss": "chief"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "automakers",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 6,
+          "dependentGloss": "automakers"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 7,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "said",
+          "dependent": 8,
+          "dependentGloss": "launch"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "10",
+          "dependent": 9,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "mwe",
+          "governor": 9,
+          "governorGloss": "more",
+          "dependent": 10,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "models",
+          "dependent": 11,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "models",
+          "dependent": 12,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 13,
+          "dependentGloss": "models"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "year",
+          "dependent": 14,
+          "dependentGloss": "every"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 15,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 17,
+          "dependentGloss": "including"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 19,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "nmod:including",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 20,
+          "dependentGloss": "SUV"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "markets",
+          "dependent": 21,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 23,
+          "governorGloss": "markets",
+          "dependent": 22,
+          "dependentGloss": "advanced"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 23,
+          "dependentGloss": "markets"
+        },
+        {
+          "dep": "cc",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 24,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 25,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 26,
+          "dependentGloss": "Genesis"
+        },
+        {
+          "dep": "compound",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 27,
+          "dependentGloss": "G70"
+        },
+        {
+          "dep": "nmod:including",
+          "governor": 8,
+          "governorGloss": "launch",
+          "dependent": 28,
+          "dependentGloss": "sedan"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 20,
+          "governorGloss": "SUV",
+          "dependent": 28,
+          "dependentGloss": "sedan"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "year",
+          "dependent": 29,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "dep",
+          "governor": 28,
+          "governorGloss": "sedan",
+          "dependent": 30,
+          "dependentGloss": "year"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "said",
+          "dependent": 31,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 168,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "78-year-old",
+          "originalText": "78-year-old",
+          "lemma": "78-year-old",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 180,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "chief",
+          "originalText": "chief",
+          "lemma": "chief",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 186,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "said",
+          "originalText": "said",
+          "lemma": "say",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 191,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 192,
+          "characterOffsetEnd": 195,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "automakers",
+          "originalText": "automakers",
+          "lemma": "automaker",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 206,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 211,
+          "pos": "MD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "launch",
+          "originalText": "launch",
+          "lemma": "launch",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 218,
+          "pos": "VB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 219,
+          "characterOffsetEnd": 223,
+          "pos": "JJR",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 224,
+          "characterOffsetEnd": 228,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "10",
+          "originalText": "10",
+          "lemma": "10",
+          "characterOffsetBegin": 229,
+          "characterOffsetEnd": 231,
+          "pos": "CD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "new",
+          "originalText": "new",
+          "lemma": "new",
+          "characterOffsetBegin": 232,
+          "characterOffsetEnd": 235,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "models",
+          "originalText": "models",
+          "lemma": "model",
+          "characterOffsetBegin": 236,
+          "characterOffsetEnd": 242,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "every",
+          "originalText": "every",
+          "lemma": "every",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 248,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "year",
+          "originalText": "year",
+          "lemma": "year",
+          "characterOffsetBegin": 249,
+          "characterOffsetEnd": 253,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 253,
+          "characterOffsetEnd": 254,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "including",
+          "originalText": "including",
+          "lemma": "include",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 264,
+          "pos": "VBG",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 265,
+          "characterOffsetEnd": 266,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "new",
+          "originalText": "new",
+          "lemma": "new",
+          "characterOffsetBegin": 267,
+          "characterOffsetEnd": 270,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "SUV",
+          "originalText": "SUV",
+          "lemma": "suv",
+          "characterOffsetBegin": 271,
+          "characterOffsetEnd": 274,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 275,
+          "characterOffsetEnd": 278,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "advanced",
+          "originalText": "advanced",
+          "lemma": "advanced",
+          "characterOffsetBegin": 279,
+          "characterOffsetEnd": 287,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "markets",
+          "originalText": "markets",
+          "lemma": "market",
+          "characterOffsetBegin": 288,
+          "characterOffsetEnd": 295,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 296,
+          "characterOffsetEnd": 299,
+          "pos": "CC",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 300,
+          "characterOffsetEnd": 301,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "Genesis",
+          "originalText": "Genesis",
+          "lemma": "Genesis",
+          "characterOffsetBegin": 302,
+          "characterOffsetEnd": 309,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "G70",
+          "originalText": "G70",
+          "lemma": "g70",
+          "characterOffsetBegin": 310,
+          "characterOffsetEnd": 313,
+          "pos": "NN",
+          "ner": "ORGANIZATION",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "sedan",
+          "originalText": "sedan",
+          "lemma": "sedan",
+          "characterOffsetBegin": 314,
+          "characterOffsetEnd": 319,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "this",
+          "originalText": "this",
+          "lemma": "this",
+          "characterOffsetBegin": 320,
+          "characterOffsetEnd": 324,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "year",
+          "originalText": "year",
+          "lemma": "year",
+          "characterOffsetBegin": 325,
+          "characterOffsetEnd": 329,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 31,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 329,
+          "characterOffsetEnd": 330,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ]
+}

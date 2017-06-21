@@ -1,0 +1,37 @@
+{
+  "@text": "Hyundai Motor sold 4.86 million vehicles compared with its target of 5.01 million last year. Kia Motors sold 3.02 million vehicles, shy of its goal of 3.12 million. The 78-year-old chief said the automakers will launch more than 10 new models every year, including a new SUV for advanced markets and a Genesis G70 sedan this year. ",
+  "@confidence": "0.0",
+  "@support": "0",
+  "@types": "Person,Organisation,Place,Location",
+  "@sparql": "",
+  "@policy": "whitelist",
+  "Resources":   [
+        {
+      "@URI": "http://dbpedia.org/resource/Hyundai_Motor_Company",
+      "@support": "1070",
+      "@types": "DBpedia:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Company",
+      "@surfaceForm": "Hyundai",
+      "@offset": "0",
+      "@similarityScore": "0.9999849403908969",
+      "@percentageOfSecondRank": "1.5059004024118742E-5"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/Kia_Motors",
+      "@support": "660",
+      "@types": "DBpedia:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Company",
+      "@surfaceForm": "Kia Motors",
+      "@offset": "93",
+      "@similarityScore": "1.0",
+      "@percentageOfSecondRank": "0.0"
+    },
+        {
+      "@URI": "http://dbpedia.org/resource/Joseph_Stalin",
+      "@support": "6340",
+      "@types": "DBpedia:Agent,Schema:Person,Http://xmlns.com/foaf/0.1/Person,DBpedia:Person,DBpedia:OfficeHolder",
+      "@surfaceForm": "The",
+      "@offset": "165",
+      "@similarityScore": "0.8272958072420905",
+      "@percentageOfSecondRank": "0.1897616691680522"
+    }
+  ]
+}
