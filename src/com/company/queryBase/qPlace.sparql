@@ -1,0 +1,21 @@
+Prefix dbo: <http://dbpedia.org/ontology/>
+Prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix foaf: <http://xmlns.com/foaf/0.1/>
+Prefix yago: <http://dbpedia.org/class/yago/>
+Prefix umbel-rc: <http://umbel.org/umbel/rc/>
+Prefix schema: <http://schema.org/>
+
+SELECT Distinct (?s as ?URI)
+WHERE { ?s ?p ?o.
+
+    ?s rdfs:label "LABEL_TO_QUERY"@en.
+
+    {?s rdf:type dbo:Place}
+     UNION {?s rdf:type yago:Location100027167}
+      UNION {?s rdf:type yago:Building102913152}
+       UNION {?s rdf:type umbel-rc:Place}
+        UNION {?s rdf:type yago:Area102735688}.
+
+}
+LIMIT 10

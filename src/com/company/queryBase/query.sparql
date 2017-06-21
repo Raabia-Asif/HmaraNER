@@ -1,0 +1,7 @@
+Prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT  Distinct (?s as ?URI)
+	WHERE { ?s ?p ?o.
+	     ?s rdfs:label "LABEL_TO_QUERY"@en.
+	}
+LIMIT 10
